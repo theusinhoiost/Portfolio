@@ -19,7 +19,14 @@
 }
 
 body{
+    font-family: ;
+    background-color: var(--color2);
     
+}
+
+
+header{
+    text-align: center;
 }
 
 
