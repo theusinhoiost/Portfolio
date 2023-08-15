@@ -2,15 +2,11 @@
 
 
 :root{
-    --color1:#265C4B;
-    --color2:#146551;
-    --color3:#007566;
-    --color4:#589A8D;
-    --color5:#8FC1B5;
+    --color1: #000077;
+    --color2: #7B00FF;
+    --color3:#FF0000;
 
-    /* colors from color Adobe */ 
-
-
+    --gap: 3rem;
 }
 
 *{
@@ -22,3 +18,26 @@ html{
     font-size: 62.5%;
 }
 
+body{
+    background-image: url("../images/quantum-gradient.png");
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+}
+
+
+p{
+    font-size: 2rem;
+}
+
+.main_content{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--gap);
+}
+
+.center{
+    text-align: center;
+}
