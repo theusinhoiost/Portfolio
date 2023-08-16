@@ -19,7 +19,7 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.6rem;
-    background-image: url("../imgs/endless-constellation.svg");
+
 }
 
 h1,
@@ -53,7 +53,7 @@ h4{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    color: white;
+    background-image: url("../imgs/endless-constellation.svg")
 }
 
 .white_bg{
@@ -68,4 +68,25 @@ h4{
 
 .section{
     min-height: 100vh;
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    width: 100%;
+}
+
+.menu_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu ul{
+    list-style: none;
+    display: flex;
 }
