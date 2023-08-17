@@ -52,7 +52,6 @@ a.link {
     border: 2px solid rgba(0, 0, 0, 0.737);
     border-radius: 30px;
     background-color: rgba(255, 255, 255, 0.548);
-    margin-top: 3%;
 }
 
 div.flex-content {
@@ -62,10 +61,9 @@ div.flex-content {
     justify-content: center;
     margin: auto;
     width: 300px;
-    padding-top: 10%;
 }
 
 div.flex-content img {
-    max-width: 50px;
+    max-width: 60px;
     margin: 10px;
 }
