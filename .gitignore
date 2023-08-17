@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.$py.class
+
+# Virtual environment
+venv/
+.venv/
+ENV/
+
+# Other
+.DS_Store
+.idea/
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Eclipse files
+.project
+.settings
+.classpath
+
+# Dependency directories
+node_modules/
+
+# Bundler output directories
+dist/
+build/
+
+# Other
+.DS_Store
+.env
