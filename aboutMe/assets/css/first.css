@@ -44,12 +44,17 @@ a.title{
     color: var(--color2);
 }
 div a{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
+    max-width: 50px;
+   
 }
 
 div a img{
-    max-width: 50px;  
+    display: inline;
+    max-width: 50px;
+    margin: 10px;
+    border: 1px solid black;
+    
+}
+
+a.title{
 }
