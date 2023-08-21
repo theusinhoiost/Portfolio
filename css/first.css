@@ -17,7 +17,7 @@ html {
 }
 
 body {
-    background-image: url("/images/bg1.png");
+    background-image: url("../images/bg1.png");
     max-height: 100vh;
     background-size: cover;
     background-attachment: fixed;
