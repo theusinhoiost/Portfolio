@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
 
-* {
-    padding: 0;
-    margin: 0;
-}
-
 :root {
     --color1: #000077;
     --color2: #7B00FF;
     --color3: #FF0000;
-
     --gap: 3rem;
+}
+
+* {
+    margin: 0;
+    padding: 0 auto;
 }
 
 html {
@@ -18,58 +17,59 @@ html {
 }
 
 body {
-    background-image: url("../images/bg1.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+    background-image: url("/images/bg1.png");
+    max-height: 100vh;
     background-size: cover;
-    margin: 3rem;
-    font-family: 'Caprasimo', Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
-h1 {
-    text-align: center;
-    font-size: 7rem;
-    margin-bottom: 2%;
-
-}
-
-strong {
-    color: var(--color2);
-}
-
-a.link {
-    margin: auto;
-    text-decoration: none;
-    font-size: 4rem;
-    color: var(--color2);
-    max-width: 300px;
-    border: 2px solid rgba(0, 0, 0, 0.737);
-    border-radius: 30px;
-    background-color: rgba(255, 255, 255, 0.548);
-
-}
-
-div.flex-content {
+    background-attachment: fixed;
+    font-family:'Caprasimo', sans-serif;
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
+    flex-direction: column;
     justify-content: center;
-    margin: auto;
-    width: 300px;
-    
+    height: 100vh;
+    margin: var(--gap);
 }
 
-div.flex-content img {
-    max-width: 60px;
-    margin: 10px;
-}
 
-main{
+header h1 {
+    font-size: 7rem;
+    text-align: center;
+}
+header h1 > strong{
+    color: var(--color1);
+
+}
+.pageProjects{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
+    margin-top: 5rem;
 
+}
+.pageProjects:hover{
+}
+
+.pageProjects a {
+    text-decoration: none;
+    font-size: 4.8rem;
+    color: var(--color1);
+    border: 0.2rem solid var(--color1);
+    border-radius: 3rem;
+    background-color: #7b00ff78;
+
+
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.icons img {
+    margin: 3rem;
+    max-width: 7rem;
 }
