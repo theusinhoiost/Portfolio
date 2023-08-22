@@ -9,6 +9,7 @@
 * {
     margin: 0;
     padding: 0 auto;
+    box-sizing: border-box;
 }
 
 html {
@@ -23,6 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 100vh;
     min-width: 35rem;
 }
@@ -32,6 +34,7 @@ header h1 {
     font-size: 7rem;
     text-align: center;
     text-shadow: 0rem 0rem 0.2rem var(--color1);
+    
 }
 
 header h1>strong {
@@ -84,8 +87,7 @@ header h1>strong {
     transition: 500ms ease-in-out;
 
 }
-
-footer p{
-    text-align: center;
-    
+footer{
+    margin-top: 1.3rem;
+    align-self: center;
 }

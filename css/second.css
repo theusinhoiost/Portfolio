@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+:root {
+    --color1: #000077;
+    --color2: #7B00FF;
+    --color3: #FF0000;
+}
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url("../images/bg1.png");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Caprasimo', sans-serif;
+}
+
+.main-content{
+    background-color: rgba(255, 255, 255, 0.626);
+}
