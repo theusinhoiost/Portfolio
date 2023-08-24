@@ -6,9 +6,7 @@ footer.appendChild(p)
 
 
 function getYear(){
-   let date = new Date();
-    let year = date.getFullYear();
-    return year;
-
+   let date = new Date().getUTCFullYear();
+    return date;
 }
 
