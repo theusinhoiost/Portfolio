@@ -24,6 +24,33 @@ body{
     font-family: 'Caprasimo', sans-serif;
 }
 
-.main-content{
-    background-color: rgba(255, 255, 255, 0.626);
+h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+
+a{
+    display: flex;
+    font-style: normal;
+    text-decoration: none;
+    color: #000077;
+    font-size: 3.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+a:hover{
+    color: #7B00FF;
+}
+
+.projects_name{
+    padding-top: 5rem;
+}
+.projects_name>a{
+    padding-top: 1.8rem;
 }

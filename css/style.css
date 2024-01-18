@@ -33,7 +33,7 @@ body {
 header h1 {
     font-size: 7rem;
     text-align: center;
-    text-shadow: 0rem 0rem 0.2rem var(--color1);
+    text-shadow: 0rem 0rem 0.15rem var(--color1);
     
 }
 
