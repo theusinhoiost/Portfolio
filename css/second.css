@@ -34,13 +34,13 @@ h1{
     margin-top: 5rem;
 }
 .projects_name{
-    background-color: #00007764;
+    background-color: rgba(0, 0, 119, 0.4);
     max-width: 60rem;
     border: 1px solid rgba(0, 0, 0, 0.900);
     border-radius: 25px;
 }
 .projects_name>a{
-    padding-top: 1.8rem;
+    margin-top: 1.8rem;
 }
 
 a{
@@ -52,6 +52,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 
 }
 
