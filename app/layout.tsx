@@ -6,8 +6,9 @@ import { Providers } from "./providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Matheus | Portfolio",
-  description: "Fullstack Developer, DevOps & CyberSec Enthusiast",
+  title: "Matheus Luiz Iost | Lead Frontend & Full-Stack Engineer",
+  description:
+    "Full-Stack Software Engineer specializing in Java 25 (Spring Boot 4), NestJS 11, React 19 (Next.js), Angular 22 (SSR), RabbitMQ, Redis, AWS S3, and Prometheus/Grafana observability.",
 };
 
 export default function RootLayout({
